@@ -86,6 +86,8 @@
 					</div>
 
 					<div class="col-s-12 col-md-6 product-description">
+						<h5 class="product-title">Cactus</h5>
+						<h6 class="product-subtitle">Prickly</h6>
 						<!-- Nav tabs -->
 						<div class="card">
 							<ul class="nav nav-tabs" role="tablist">
@@ -103,31 +105,47 @@
 				</div>
 			</div>
 			
-			<div id="purchasebar">
-				<form>
-					<div class="">
-						<label></label>
-						<div class=""></div>
+			<div id="purchasebar" class="d-block">
+				<form class="d-flex justify-content-between">
+					<div class="selector-wrappers">
+						<label class="purchase_label">Payment Type</label>
+						<div class="money">15,99$</div>
+						<div class="points">3000 Points</div>
 					</div>
 					
-					<div class="">
-						<label></label>
-						<div class=""></div>
+					<div class="Size-wrapper">
+						<label class="purchase_label">Size</label>
+						<div class="small-size">Small</div>
+						<div class="big-size">Big</div>
 					</div>
 					
-					<div class="">
-						<label></label>
-						<div class=""></div>
+					<div class="Color-wrapper">
+						<label class="purchase_label">Color</label>
+						<div class="color-pink">
+							<span class="pink"></span>
+						</div>
+						
+						<div class="color-yellow">
+							<span class="yellow"></span>
+						</div>
+						
+						<div class="color-red">
+							<span class="red"></span>
+						</div>
 					</div>
 					
-					<div class="">
-						<label></label>
-						<div class=""></div>
+					<div class="Quantity-wraper">
+						<label class="purchase_label">Quantity</label>
+						<button class="btn plus"></button>
+						<input id="quantity" class="product-quantity" value="1" readonly="readonly" name="quantity" type="text">
+						<button class="btn minus"></button>
 					</div>
 					
-					<div class="">
-						<label></label>
-						<div class=""></div>
+					<div class="AddToCard-wraper">
+						<button id="AddToCart" class="btn" type="submit" value="Add to Cart" name="add">
+							<span>Add to Cart</span>
+							<i class="fas fa-shopping-cart"></i>
+						</button>
 					</div>
 				</form>
 			</div>
