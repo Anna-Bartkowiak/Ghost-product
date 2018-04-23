@@ -59,12 +59,49 @@ body {
 	margin: 5% auto;
 }
 
+header {
+	position: relative;
+}
+
+.navbar-brand {
+	padding: 20px 0;
+	display: block;
+	text-align: center;
+	justify-content: center;
+}
+
+.main-nav {
+	padding: 20px 0;
+	display: block;
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.navbar-nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.lg-right {
+	float: right;
+}
+
+.sub_nav {
+	float: right;
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+}
+
 .card {
 	background-color: inherit;
-	border: none;
+/*	border: none;*/
 }
 
 .purchasebar-form {
+	position: fixed;
+	bottom: 150px;
 	background-color: #262F4C;
 }
 
